@@ -37,6 +37,13 @@ h1{
 	font-size:13px;
 }
 
+#paddle{
+	width:500px;
+	height:500px;
+	position:absolute;
+	background-image:url('../images/paddle.png');
+}
+
 #ball{
 	z-index:1;
 	position:absolute;
@@ -44,7 +51,7 @@ h1{
 	left:43%;
 	width:109px;
 	height:109px;
-	background-image:url(ball.png);
+	background-image:url('../images/ball.png');
 }
 
 input[type="submit"]{
