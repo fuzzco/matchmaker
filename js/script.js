@@ -23,7 +23,7 @@ $(document).ready(function () {
 	$(':text').tagsInput({
 		'height':'85px',
 		'width':'500px',
-		'defaultText':'add a player'
+		'defaultText':'add +'
 	});
 	
 	// Capture Submit
